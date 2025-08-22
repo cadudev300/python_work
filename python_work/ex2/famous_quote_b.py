@@ -1,0 +1,3 @@
+name = 'Jesus Cristo'
+message = '"Amarás o Senhor, teu Deus, de todo o teu coração, e de toda a tua alma, e de todo o teu pensamento" e "Amarás o teu próximo como a ti mesmo"'
+print('{} uma vez disse: {}'.format(name, message))

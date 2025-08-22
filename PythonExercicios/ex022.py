@@ -1,0 +1,6 @@
+nome = (input('Informe seu nome: '))
+print('NOME COM LETRAS MAIUSCULAS: {} '.format(nome.upper()))
+print('NOME COM LETRAS MINUSCULAS: {} '.format(nome.lower()))
+print('NOME SEM ESPAÇOS EM BRANCOS: {}'.format(len(nome.replace(' ', ''))))
+nome_repartido = nome.split()
+print('QUANTIDADES DE LETRAS O PRIMEIRO NOME: {} '.format(len(nome_repartido[0])))

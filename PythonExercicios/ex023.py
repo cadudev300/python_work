@@ -1,0 +1,5 @@
+numero = str(input('Informe um numero: '))
+print('unidade : {}'.format(numero[-1]))
+print('dezena  : {}'.format(numero[-2]))
+print('centena : {}'.format(numero[-3]))
+print('milhar  : {}'.format(numero[-4]))
